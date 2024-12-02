@@ -1,7 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "COMMAND OUTPUT: $(whoami)"
+      "path": "force-app"
     }
   ]
 }
