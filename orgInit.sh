@@ -1,4 +1,4 @@
-sfdx  plugins:link node_modules/sfdmu
+sfdx  plugins:link https://github.com/abzeabze/plugin
 sfdx shane:org:create -f config/project-scratch-def.json -d 1 -s --json --userprefix int -o work.shop
 sfdx force:source:push
 sfdx force:user:permset:assign -n CustomerID
