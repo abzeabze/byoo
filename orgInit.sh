@@ -1,4 +1,4 @@
-sfdx  plugins:link Schema-Exporter #
+sfdx  plugins:link ./Schema-Exporter #
 sfdx  schema:helpdemo -m "asd"
 #sfdx shane:org:create -f config/project-scratch-def.json -d 1 -s --json --userprefix int -o work.shop
 #sfdx force:source:push
