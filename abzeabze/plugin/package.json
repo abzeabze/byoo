@@ -1,0 +1,19 @@
+{
+  "name": "@salesforce1/lwc-dev-server",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "sh install.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "oclif": {
+  	"commands": "./lib",
+	"bin": "sfdc"
+  }
+}
